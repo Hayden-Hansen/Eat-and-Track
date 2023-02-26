@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="/public/main.css">
+</head>
+
+<div id="WrapAll">
+<body>
+    <div id="topText">
+        <div>Eat and Track</div>
+    </div>
+    <div id="topTextDescription">Look up food calories and keep daily track of your caloric intake!</div>
+    <div id="name"><%= email %> </div>
+    <form action="/logout" method="POST" novalidate class="needs-validation">
+    <button id="logoutButton">Logout</button>
+    </form>
+    <div id="wholeBody">
+    <div id="foodSearchContainer">
+        <div id="text">Food Calories Lookup</div>
+         <div id="form-group">
+            <input type="text" id="search" class="form-control form-control-lg" placeholder="Search food by title or brand name">
+            <ul></ul>
+            <div id="match-list"></div>
+        </div>
+        </div>
+                
+
+        
+    
+<div id="calendar_modal">
+    <div id="testValue">
+        <div id="pass">Total This Month:</div>
+        <div id="passValue">0</div>
+        <div id="separator">|</div>
+        <div id="failedValue">0</div>
+    </div>
+    <div id="container">
+        <div id="header">
+            <div id="monthDisplay"></div>
+            <div>
+                <button id="backButton">Back</button>
+                <button id="nextButton">Next</button>
+            </div>
+        </div>
+
+        <div id="weekdays">
+            <div>Sunday</div>
+            <div>Monday</div>
+            <div>Tuesday</div>
+            <div>Wednesday</div>
+            <div>Thursday</div>
+            <div>Friday</div>
+            <div>Saturday</div>
+        </div>
+
+        <div id="calendar"></div>
+        <div id="bottomText">Click on a day to set your calorie goals and add food!</div>
+    </div>
+
+        <div id="newEventModal">
+            <div id="date"></div>
+            <div id="calContainer">
+
+            <div id="goalCalories">
+                <h3>Goal Calories</h3>
+                <input type="number" id="eventTitleInput" placeholder="Goal Calories"/>
+                <button id="confirmButton">Set Goal</button>
+            </div>
+
+            <div id="realCalories">
+                <h3>Calories Eaten</h3>
+                <input type="number" id="eventTitleInput2" placeholder="Sum of food list"/>
+            </div>
+        </div>
+      
+            <button id="addFood">add Item</button>
+
+            <div id="newItemContainer">
+                <div id="newFoodInput">
+                <h3 id = "foodNameText">Food Name</h3>
+                <input type="text" id="eventTitleInput3" maxlength="25">
+            </div>
+            <div id="newCalorieInput">
+                <h3 id="caloriesText">Calories</h3>
+                <input type="number" id="eventTitleInput4" max="5">
+            </div>
+            </div>
+            <div id="modalButtons">
+            <button id="cancelFood">Cancel</button>
+            <button id="submitFood">Submit New Item</button>
+            </div>
+        
+
+
+        
+        <h3 id="foodListText">Food List:</h3>
+        <div id="detailsContainer">
+        <h5 id="foodNameText2">Food Name</h5>
+        <h5 id="caloriesText2">Calories</h5>
+        </div>
+        <ul id="foodList">
+    
+        </ul>
+        <button id="cancelButton">Close</button>
+        </div>
+
+        <div id="modalBackDrop"></div>
+        
+    </div>
+    
+</div>
+
+   <script src="../js/main.js"></script> 
+   <script src="../js/food.js"></script> 
+</body>
+</div>
+</html>

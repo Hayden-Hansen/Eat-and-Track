@@ -1,0 +1,101 @@
+#WrapAll {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    overflow:hidden;
+  }
+
+
+body {
+    height:100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.3)),
+    url('https://i.pinimg.com/originals/d3/6d/46/d36d462db827833805497d9ea78a1343.jpg');
+    background-size: cover;
+    background-repeat:inherit;
+    overflow-y: hidden;
+}
+
+.login{
+    width: 50%;
+    min-width: 450px;
+    height: fit-content;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.login > h3 {
+    padding-bottom: 20px;
+}
+
+.form {
+    border: 3px solid lightgray;
+    width: 40%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.inputs {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.inputs > p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.inputs > input {
+    width: 80%;
+    height: 33px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    
+}
+
+.inputs > input:hover {
+border: 1px solid orange
+}
+
+.signup-button {
+    width: 70%;
+    height: 35px;
+    background-color: wheat;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer
+}
+
+.signup-button:hover {
+    border: 2px solid green
+}
+
+.login-button {
+    width: 55%;
+    height: 35px;
+    font-size: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.login-button:hover {
+    border: 2px solid orange
+}
