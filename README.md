@@ -8,7 +8,7 @@ It is also connected to the FoodData Central API to retireve nutritional informa
 
 First off, I was able to get the very basic vanilla JS calendar from this video: https://www.youtube.com/watch?v=m9OSBJaQTlM&t=3208s
 
-I would recommend anyone who is just starting to build JavaScript apps to build this calendar as it is a great way to demonstrate your skills.
+I would recommend anyone who is just starting to build JavaScript apps to build this calendar as it is a great way to review and demonstrate your basic JavaScript skills.
 
 Once I completed the calendar, I then added in the following parts:
   - An expanded modal to plug in caloric goals and to add up daily caloric intake in localSotrage
